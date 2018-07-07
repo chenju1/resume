@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: dimgrey;
+    font-size: 23px;
+    font-weight: bold;
+    float: left;
+}
+
+#all{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#header{
+    width: 100%;
+    height: 800px;
+    background: #E0EEE0	;
+    background-image: url(images/bg.png), url(images/bgp.png);
+    background-repeat:repeat-x,no-repeat;
+    background-position: bottom, right bottom;
+    position: relative;
+}
+#header p{
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    color: #F0FFF0 ;
+}
+#header ul{
+    width:600px;
+    height: 45px;
+    list-style: none;
+    margin: 0 auto;
+}
+#header ul li{
+    width: 150px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+#header ul li a{
+    color: rgb(49, 131, 104);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#cont{
+    width: 80%;
+    margin: 0 auto;
+}
+#user{
+    height: 390px;
+    width: 100%;
+    background: rgba(158, 158, 158, 0.2);
+    margin-top: 30px;
+}
+.text{
+    width: 55%;
+    float: right;
+    margin-top: 60px;
+    font-size: 23px;
+    text-align: left;
+}
+
+#life{
+    width: 100%;
+    height: 260px;
+    margin-top: 30px;
+}
+.link{
+    text-align: left;
+}
+.teble{
+    height: 200px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+#life a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(13, 75, 67);
+}
+#ani{
+    width: 100%;
+    overflow: hidden;
+}
+#pho{
+    width: 100%;
+    overflow: hidden;
+}
+#food{
+    width: 100%;
+    overflow: hidden;
+}
+#life img{
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin-left: 15px;
+}
+.clear{
+    clear: both;
+}
+#memo{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    clear: both;
+}
+.memolink{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background: rgba(158, 158, 158, 0.2);
+}
+.memolink ul{
+    list-style: none;
+    width: 70%;
+}
+.memolink ul li{
+    width: 70%;
+    height: 60px;
+    text-align: center;
+    line-height: 40px;
+
+}
+.memolink ul li a{
+    color: rgb(47, 148, 134);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contair{
+    width: 85%;
+    height: 100%;
+    float: left;
+}
+#web{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+#web a{
+    color: rgb(47, 148, 134);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#web ul{
+    list-style: none;
+    width: 600px;
+}
+#web ul li{
+    float: left;
+    width: 120px;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    clear: both;
+    background: #E0EEE0	;
+    position: relative;
+}
+#footer ul{
+    list-style: none;
+    width: 400px;
+    position: absolute;
+    right: 40%;
+    bottom: 30px;
+}
+#footer ul li{
+    float: left;
+    width: 100px;
+}
+#footer a{
+    color: rgba(44, 44, 44, 0.767);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+#footer p{
+    font-size: 60px;
+    font-weight: bold;
+    color: #F0FFF0 ;
+}
